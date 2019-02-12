@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/fundo_simples_claro"
+    tools:context="com.app.boletim.Activities.CadastroNotasActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Adicionar Nota Bismestral"
+        android:textColor="#fff"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_nota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nota"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary"
+            android:textColor="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimary"
+            android:layout_margin="20dp"
+            android:inputType="numberDecimal" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_salvar_nota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+
+            android:background="@color/colorAccent"
+            android:text="@string/salvar"
+            android:textColor="#fff"
+            android:textColorLink="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btn_cancelar_nota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:background="@color/colorAccent"
+            android:text="@string/cancelar"
+            android:textColor="#fff"
+            android:textColorLink="@color/colorPrimary" />
+
+    </LinearLayout>
+
+</LinearLayout>

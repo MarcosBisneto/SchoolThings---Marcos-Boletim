@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/meus_dados_usuario"
+        android:title="SOBRE MIM"
+        >
+    </item>
+
+    <item android:id="@+id/sair_usuario"
+        android:title="SAIR"
+        >
+    </item>
+
+</menu>

@@ -38,4 +38,9 @@
  ## DIAGRAMA DE CLASSE:
  ![diagrama](https://user-images.githubusercontent.com/44373296/52674212-044f6000-2f0a-11e9-8a08-41fe40a1ea2a.png)
  
+ ## APP
+ 
+![menos_mais](https://user-images.githubusercontent.com/44373296/52677907-e5a39600-2f16-11e9-8aef-2d81e5085cef.png)
+
+ 
 
